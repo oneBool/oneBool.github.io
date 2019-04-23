@@ -1,9 +1,9 @@
 <html>
   <head>
-  <meta charset="utf-8" />
+    <meta charset="utf-8" />
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>TEST1 | OneBool的时光机</title>
+<title>如何在iOS地图上高效的显示大量数据 | OneBool的时光机</title>
 <link rel="shortcut icon" href="https://onebool.github.io/favicon.ico?v=1556010376854">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://onebool.github.io/styles/main.css">
@@ -81,43 +81,65 @@
   </div>
 </div>
 
-        <div class="current-tag-container">
-            <h2 class="title">
-                标签：#TEST1
-            </h2> 
+      
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              如何在iOS地图上高效的显示大量数据
+            </h2>
+            <div class="post-info">
+              <time class="post-time">
+                · 2019-04-23 ·
+              </time>
+              
+            </div>
+            
+            <div class="post-content">
+              <p>待续</p>
+
+            </div>
+          </article>
         </div>
-        <div class="post-container">
-  
-    <article class="post">
-      <a href="https://onebool.github.io/post/test">
-        <h2 class="post-title">TEST</h2>
-      </a>
-      <div class="post-info">
-        <time class="post-time">
-          · 2019-04-15 ·
-        </time>
+    
         
-          <a href="https://onebool.github.io/tag/H61cShWkt" class="post-tag">
-            # TEST1
-          </a>
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://onebool.github.io/post/test">
+              <h3 class="post-title">
+                TEST
+              </h3>
+            </a>
+          </div>  
         
-      </div>
-      
-        <a href="https://onebool.github.io/post/test" class="post-feature-image" style="background-image: url('https://onebool.github.io/post-images/test.jpg')">
-        </a>
-      
-      <div class="post-abstract">
-        
-      </di>
-    </article>
-  
-</div>
 
-        <div class="pagination-container">
-  
-  
-</div>
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: '8c10efc24b5c4365f47f',
+    clientSecret: '598445112602fd21031deefcde664abaa8989458',
+    repo: 'oneBool.github.io',
+    owner: 'oneBool',
+    admin: ['oneBool'],
+    id: location.pathname,      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
+        
+    
         <div class="site-footer">
   Powered by <a href="https://github.com/oneBool" target="_blank">OneBool</a>
 All right reserved 
